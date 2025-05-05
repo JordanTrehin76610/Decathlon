@@ -1,5 +1,6 @@
 body {
     width: 99vw;
+    height: auto;
 }
 
 
@@ -63,19 +64,14 @@ body {
 
 /* LE BON GROS CONTENUE */
 
-main {
-    display: flex;
-    justify-content: center;
-}
-
 
 .accueil {
     max-width: 100%;
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
-    padding-left: 20rem;
-    padding-right: 17%;
+    padding-left: 15rem;
+    padding-right: 17rem;
     padding-top: 3%;
     gap: 1rem;
 }
@@ -140,4 +136,22 @@ main {
     border-radius: 0;
     background-color: white;
     border-color: white;
+    border-style: none;
+}
+
+.categorie {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-top: 3rem;
+}
+
+.catego {
+    height: 4rem;
+    width: 14rem;
+    border-radius: 0;
+    background-color: #F1F0EE;
+    border-color: #F1F0EE;
+    border-style: none;
 }
