@@ -6,11 +6,16 @@ body {
 
 /* LA GROSSE TETE */
 
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
 .connection {
     max-height: 13.5rem;
     display: grid;
     grid-template-columns: 1fr 10fr 3fr;
-    /* border: 1px solid black; */
     gap: 1rem;
 }
 
@@ -19,7 +24,6 @@ body {
 }
 
 .barre {
-    /* border: 1px solid red; */
     height: 80%;
     background-color: #F5F4F5;
     border-radius: 2rem;
@@ -34,7 +38,6 @@ body {
 .connect {
     display: flex;
     justify-content: space-around;
-    /* border: 1px solid blue */
 }
 
 .connect p {
@@ -43,9 +46,7 @@ body {
 
 .nav {
     height: 3rem;
-    /* border: 1px solid black; */
     display: flex;
-    /* grid-template-columns: repeat(9, 1fr); */
     justify-content: space-around;
     max-width: 100%;
     padding-left: 10%;
@@ -139,6 +140,8 @@ body {
     border-style: none;
 }
 
+/* ON PASSE AU CATEGORIE */
+
 .categorie {
     display: flex;
     justify-content: space-between;
@@ -154,4 +157,52 @@ body {
     background-color: #F1F0EE;
     border-color: #F1F0EE;
     border-style: none;
+}
+
+/* PUIS LES IMAGES DE LA PROMO */
+
+.promo {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 15rem;
+    padding-right: 17rem;
+    padding-top: 3%;
+    gap: 1rem;
+}
+
+.imageA .blue1 {
+    position: absolute;
+    top: 150%;
+    left: 14%;
+    height: 3rem;
+    width: 8rem;
+    border-radius: 0;
+    background-color: #323894;
+    color: white;
+    border-color: #323894;
+}
+
+.imageB .blue1 {
+    position: absolute;
+    top: 150%;
+    left: 51.5%;
+    height: 3rem;
+    width: 8rem;
+    border-radius: 0;
+    background-color: #323894;
+    color: white;
+    border-color: #323894;
+}
+
+.imageC .blue1 {
+    position: absolute;
+    top: 150%;
+    left: 71%;
+    height: 3rem;
+    width: 8rem;
+    border-radius: 0;
+    background-color: #323894;
+    color: white;
+    border-color: #323894;
 }
