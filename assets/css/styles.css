@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     width: 99vw;
     height: auto;
@@ -10,6 +12,11 @@ header {
     position: sticky;
     top: 0;
     background-color: white;
+
+    /*POUR EVITER QUE LES BOUTONS PASSENT DEVANT, ON A DEFINI UNE NOUVELLE VALEUR SUR L'AXE Z*/
+
+    z-index: 2;
+    font-family: "Roboto", sans-serif;
 }
 
 .connection {
@@ -42,6 +49,7 @@ header {
 
 .connect p {
     text-align: center;
+    font-size: 0.7rem;
 }
 
 .nav {
@@ -51,6 +59,7 @@ header {
     max-width: 100%;
     padding-left: 10%;
     padding-right: 10%;
+    font-size: 0.9rem;
 }
 
 .bandeau {
@@ -157,6 +166,7 @@ header {
     background-color: #F1F0EE;
     border-color: #F1F0EE;
     border-style: none;
+    font-size: 1.2rem;
 }
 
 /* PUIS LES IMAGES DE LA PROMO */
@@ -205,4 +215,26 @@ header {
     background-color: #323894;
     color: white;
     border-color: #323894;
+}
+
+/* BONUS JSP COMMENT NOMMER CETTE CATEGORIE*/
+
+.bleu {
+    color: #3643BA;
+}
+
+.rouge {
+    color: #E3262F;
+}
+
+.vert {
+    color: #4D6F56;
+}
+
+.logoG {
+    font-size: 1.2rem;
+}
+
+button {
+    font-weight: bold;
 }
