@@ -1,0 +1,62 @@
+body {
+    width: 99vw;
+}
+
+
+/* LA GROSSE TETE */
+
+.connection {
+    max-height: 13.5rem;
+    display: grid;
+    grid-template-columns: 1fr 10fr 3fr;
+    /* border: 1px solid black; */
+    gap: 1rem;
+}
+
+.logo {
+    text-align: center;
+}
+
+.barre {
+    /* border: 1px solid red; */
+    height: 80%;
+    background-color: #F5F4F5;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 0.5rem;
+    align-items: center;
+}
+
+.connect {
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid blue */
+}
+
+.connect p {
+    text-align: center;
+}
+
+.nav {
+    height: 3rem;
+    /* border: 1px solid black; */
+    display: flex;
+    /* grid-template-columns: repeat(9, 1fr); */
+    justify-content: space-around;
+    max-width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.bandeau {
+    display: flex;
+    height: 2.5rem;
+    width: 100%;
+    background-color: #E3262F;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
