@@ -136,10 +136,10 @@ header {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
-    padding-left: 15rem;
-    padding-right: 17rem;
+    padding-left: 13%;
+    padding-right: 17%;
     padding-top: 3%;
-    gap: 1rem;
+    gap: 1%;
 }
 
 .image1 {
