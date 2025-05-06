@@ -44,12 +44,50 @@ header {
 
 .connect {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 
 .connect p {
     text-align: center;
     font-size: 0.7rem;
+}
+
+.question {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.magasin {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.compte {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.panier {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+/*HOVER POUR QUE LES ELEMENTS CHANGE QUAND ON PASSE LA SOURIS DESSUS*/
+
+.question:hover {
+    background-color: lightgray;
+}
+
+.magasin:hover {
+    background-color: lightgray;
+}
+
+.compte:hover {
+    background-color: lightgray;
+}
+
+.panier:hover {
+    background-color: lightgray;
 }
 
 .nav {
@@ -62,6 +100,16 @@ header {
     font-size: 0.9rem;
 }
 
+/*NOUVEAU HOVER POUR LES TEXTE*/
+
+.navbleu:hover {
+    color: #3643BA;
+}
+
+.bonplan:hover {
+    background-color: #e3262f3f;
+}
+
 .bandeau {
     display: flex;
     height: 2.5rem;
@@ -70,6 +118,13 @@ header {
     color: white;
     justify-content: center;
     align-items: center;
+}
+
+.selection {
+    padding-left: 1rem;
+}
+.selection:hover {
+    text-decoration: underline;
 }
 
 /* LE BON GROS CONTENUE */
@@ -128,7 +183,7 @@ header {
 .image2 .blue1 {
     position: absolute;
     top: 45%;
-    left: 64%;
+    left: 66%;
     height: 3rem;
     width: 8rem;
     border-radius: 0;
@@ -140,13 +195,30 @@ header {
 .image3 .blanc1 {
     position: absolute;
     top: 75%;
-    left: 64%;
+    left: 66%;
     height: 3rem;
     width: 8rem;
     border-radius: 0;
     background-color: white;
     border-color: white;
     border-style: none;
+}
+
+/*HOVER POUR LES BOUTONS*/
+
+.blue1:hover {
+    background-color: #1d215a;
+    border-color: #1d215a;
+}
+
+.blue2:hover {
+    background-color: #1d215a;
+    border-color: #1d215a;
+}
+
+.blanc1:hover {
+    background-color: rgb(212, 212, 212);
+    border-color: rgb(212, 212, 212);
 }
 
 /* ON PASSE AU CATEGORIE */
@@ -196,7 +268,7 @@ header {
 .imageB .blue1 {
     position: absolute;
     top: 150%;
-    left: 51.5%;
+    left: 52.5%;
     height: 3rem;
     width: 8rem;
     border-radius: 0;
@@ -208,7 +280,7 @@ header {
 .imageC .blue1 {
     position: absolute;
     top: 150%;
-    left: 71%;
+    left: 72%;
     height: 3rem;
     width: 8rem;
     border-radius: 0;
