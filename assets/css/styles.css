@@ -205,22 +205,7 @@ header {
     border-style: none;
 }
 
-/*HOVER POUR LES BOUTONS*/
 
-.blue1:hover {
-    background-color: #1d215a;
-    border-color: #1d215a;
-}
-
-.blue2:hover {
-    background-color: #1d215a;
-    border-color: #1d215a;
-}
-
-.blanc1:hover {
-    background-color: rgb(212, 212, 212);
-    border-color: rgb(212, 212, 212);
-}
 
 /* ON PASSE AU CATEGORIE */
 
@@ -288,6 +273,23 @@ header {
     background-color: #323894;
     color: white;
     border-color: #323894;
+}
+
+/*HOVER POUR LES BOUTONS*/
+
+.blue1:hover {
+    background-color: #1d215a;
+    border-color: #1d215a;
+}
+
+.blue2:hover {
+    background-color: #1d215a;
+    border-color: #1d215a;
+}
+
+.blanc1:hover {
+    background-color: rgb(212, 212, 212);
+    border-color: rgb(212, 212, 212);
 }
 
 /* BONUS JSP COMMENT NOMMER CETTE CATEGORIE*/
