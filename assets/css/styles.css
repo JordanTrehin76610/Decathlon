@@ -123,6 +123,7 @@ header {
 .selection {
     padding-left: 1rem;
 }
+
 .selection:hover {
     text-decoration: underline;
 }
@@ -158,8 +159,8 @@ header {
 
 .image1 .blue1 {
     position: absolute;
-    top: 75%;
-    left: 14%;
+    top: 43rem;
+    left: 17rem;
     height: 3rem;
     width: 6rem;
     border-radius: 0;
@@ -170,8 +171,8 @@ header {
 
 .image1 .blue2 {
     position: absolute;
-    top: 75%;
-    left: 20%;
+    top: 43rem;
+    left: 25rem;
     height: 3rem;
     width: 6rem;
     border-radius: 0;
@@ -182,8 +183,8 @@ header {
 
 .image2 .blue1 {
     position: absolute;
-    top: 45%;
-    left: 66%;
+    top: 25rem;
+    left: 78rem;
     height: 3rem;
     width: 8rem;
     border-radius: 0;
@@ -194,8 +195,8 @@ header {
 
 .image3 .blanc1 {
     position: absolute;
-    top: 75%;
-    left: 66%;
+    top: 43rem;
+    left: 78rem;
     height: 3rem;
     width: 8rem;
     border-radius: 0;
@@ -255,8 +256,8 @@ header {
 
 .imageA .blue1 {
     position: absolute;
-    top: 150%;
-    left: 14%;
+    top: 85rem;
+    left: 18rem;
     height: 3rem;
     width: 8rem;
     border-radius: 0;
@@ -267,8 +268,8 @@ header {
 
 .imageB .blue1 {
     position: absolute;
-    top: 150%;
-    left: 52.5%;
+    top: 85rem;
+    left: 61rem;
     height: 3rem;
     width: 8rem;
     border-radius: 0;
@@ -279,8 +280,8 @@ header {
 
 .imageC .blue1 {
     position: absolute;
-    top: 150%;
-    left: 72%;
+    top: 85rem;
+    left: 85rem;
     height: 3rem;
     width: 8rem;
     border-radius: 0;
