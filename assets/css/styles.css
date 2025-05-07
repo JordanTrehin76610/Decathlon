@@ -115,14 +115,17 @@ header {
     display: flex;
     height: 2.5rem;
     width: 100%;
-    background-color: #E3262F;
-    color: white;
+    background-color: #FFCD4E;
     justify-content: center;
     align-items: center;
+    font-size: 0.9rem;
+
 }
 
 .selection {
     padding-left: 1rem;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .selection:hover {
@@ -166,38 +169,26 @@ header {
     top: 88%;
     left: 1%;
     height: 3rem;
-    width: 6rem;
+    width: 10rem;
     border-radius: 0;
-    background-color: #323894;
-    color: white;
-    border-color: #323894;
+    background-color: white;
+    border-color: white;
+    border-style: none;
 }
 
 .image1 .blue2 {
     position: absolute;
     top: 88%;
-    left: 13%;
+    left: 20%;
     height: 3rem;
-    width: 6rem;
+    width: 16rem;
     border-radius: 0;
-    background-color: #323894;
-    color: white;
-    border-color: #323894;
+    background-color: white;
+    border-color: white;
+    border-style: none;
 }
 
 .image2 .blue1 {
-    position: absolute;
-    top: 75%;
-    left: 2%;
-    height: 3rem;
-    width: 8rem;
-    border-radius: 0;
-    background-color: #323894;
-    color: white;
-    border-color: #323894;
-}
-
-.image3 .blanc1 {
     position: absolute;
     top: 75%;
     left: 2%;
@@ -208,6 +199,33 @@ header {
     border-color: white;
     border-style: none;
 }
+
+.image3 .blanc1 {
+    position: absolute;
+    top: 75%;
+    left: 2%;
+    height: 3rem;
+    width: 6rem;
+    border-radius: 0;
+    background-color: #3643BA;
+    border-color: #3643BA;
+    border-style: none;
+    color: white
+}
+
+.image3 .blanc2 {
+    position: absolute;
+    top: 75%;
+    left: 27%;
+    height: 3rem;
+    width: 6rem;
+    border-radius: 0;
+    background-color: #3643BA;
+    border-color: #3643BA;
+    border-style: none;
+    color: white
+}
+
 
 
 
@@ -293,19 +311,29 @@ header {
 
 /*HOVER POUR LES BOUTONS*/
 
-.blue1:hover {
-    background-color: #1d215a;
-    border-color: #1d215a;
+.accueil .blue1:hover {
+    background-color: rgb(201, 201, 201);
+    border-color: rgb(201, 201, 201);
 }
 
 .blue2:hover {
+    background-color: rgb(201, 201, 201);
+    border-color: rgb(201, 201, 201);
+}
+
+.blanc1:hover {
     background-color: #1d215a;
     border-color: #1d215a;
 }
 
-.blanc1:hover {
-    background-color: rgb(212, 212, 212);
-    border-color: rgb(212, 212, 212);
+.blanc2:hover {
+    background-color: #1d215a;
+    border-color: #1d215a;
+}
+
+.promo .blue1:hover {
+    background-color: #1d215a;
+    border-color: #1d215a;
 }
 
 /* BONUS JSP COMMENT NOMMER CETTE CATEGORIE*/
