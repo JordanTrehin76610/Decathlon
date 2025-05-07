@@ -3,6 +3,7 @@
 body {
     width: 99vw;
     height: auto;
+    margin: 0;
 }
 
 
@@ -136,9 +137,9 @@ header {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
-    padding-left: 13%;
-    padding-right: 17%;
-    padding-top: 3%;
+    margin-left: 13%;
+    margin-right: 17%;
+    margin-top: 3%;
     gap: 1%;
 }
 
@@ -158,9 +159,12 @@ header {
 }
 
 .image1 .blue1 {
+    margin-left: 13%;
+    margin-right: 17%;
+    margin-top: 3%;
     position: absolute;
-    top: 43rem;
-    left: 17rem;
+    top: 68%;
+    left: 1%;
     height: 3rem;
     width: 6rem;
     border-radius: 0;
@@ -170,9 +174,12 @@ header {
 }
 
 .image1 .blue2 {
+    margin-left: 13%;
+    margin-right: 17%;
+    margin-top: 3%;
     position: absolute;
-    top: 43rem;
-    left: 25rem;
+    top: 68%;
+    left: 7%;
     height: 3rem;
     width: 6rem;
     border-radius: 0;
@@ -182,9 +189,12 @@ header {
 }
 
 .image2 .blue1 {
+    margin-left: 13%;
+    margin-right: 17%;
+    margin-top: 3%;
     position: absolute;
-    top: 25rem;
-    left: 78rem;
+    top: 37%;
+    left: 52%;
     height: 3rem;
     width: 8rem;
     border-radius: 0;
@@ -194,9 +204,12 @@ header {
 }
 
 .image3 .blanc1 {
+    margin-left: 13%;
+    margin-right: 17%;
+    margin-top: 3%;
     position: absolute;
-    top: 43rem;
-    left: 78rem;
+    top: 66%;
+    left: 52%;
     height: 3rem;
     width: 8rem;
     border-radius: 0;
@@ -233,16 +246,19 @@ header {
     max-width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding-left: 15rem;
-    padding-right: 17rem;
-    padding-top: 3%;
+    margin-left: 15rem;
+    margin-right: 17rem;
+    margin-top: 3%;
     gap: 1rem;
 }
 
 .imageA .blue1 {
+    margin-left: 15rem;
+    margin-right: 17rem;
+    margin-top: 3%;
     position: absolute;
-    top: 79rem;
-    left: 18rem;
+    top: 130%;
+    left: 1%;
     height: 3rem;
     width: 8rem;
     border-radius: 0;
@@ -252,9 +268,12 @@ header {
 }
 
 .imageB .blue1 {
+    margin-left: 15rem;
+    margin-right: 17rem;
+    margin-top: 3%;
     position: absolute;
-    top: 79rem;
-    left: 61rem;
+    top: 130%;
+    left: 39%;
     height: 3rem;
     width: 8rem;
     border-radius: 0;
@@ -264,9 +283,12 @@ header {
 }
 
 .imageC .blue1 {
+    margin-left: 15rem;
+    margin-right: 17rem;
+    margin-top: 3%;
     position: absolute;
-    top: 79rem;
-    left: 85rem;
+    top: 130%;
+    left: 58%;
     height: 3rem;
     width: 8rem;
     border-radius: 0;
