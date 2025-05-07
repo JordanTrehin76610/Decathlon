@@ -116,21 +116,34 @@ header {
     height: 2.5rem;
     width: 100%;
     background-color: #FFCD4E;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     font-size: 0.9rem;
+}
 
+.texte {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 40%;
+}
+
+.icone {
+    margin-left: 26rem;
 }
 
 .selection {
     padding-left: 1rem;
     font-weight: bold;
     text-decoration: underline;
+    justify-content: center;
+    align-items: center;
 }
 
 .selection:hover {
     text-decoration: underline;
 }
+
 
 /* LE BON GROS CONTENUE */
 
@@ -143,6 +156,7 @@ header {
     margin-left: 13%;
     margin-right: 17%;
     margin-top: 3%;
+    margin-bottom: 4%;
     gap: 1%;
 }
 
@@ -166,8 +180,8 @@ header {
 
 .image1 .blue1 {
     position: absolute;
-    top: 88%;
-    left: 1%;
+    top: 86%;
+    left: 3%;
     height: 3rem;
     width: 10rem;
     border-radius: 0;
@@ -178,8 +192,8 @@ header {
 
 .image1 .blue2 {
     position: absolute;
-    top: 88%;
-    left: 20%;
+    top: 86%;
+    left: 22%;
     height: 3rem;
     width: 16rem;
     border-radius: 0;
@@ -190,8 +204,8 @@ header {
 
 .image2 .blue1 {
     position: absolute;
-    top: 75%;
-    left: 2%;
+    top: 73%;
+    left: 4%;
     height: 3rem;
     width: 8rem;
     border-radius: 0;
@@ -202,8 +216,8 @@ header {
 
 .image3 .blanc1 {
     position: absolute;
-    top: 75%;
-    left: 2%;
+    top: 73%;
+    left: 4%;
     height: 3rem;
     width: 6rem;
     border-radius: 0;
@@ -215,8 +229,8 @@ header {
 
 .image3 .blanc2 {
     position: absolute;
-    top: 75%;
-    left: 27%;
+    top: 73%;
+    left: 29%;
     height: 3rem;
     width: 6rem;
     border-radius: 0;
@@ -237,6 +251,7 @@ header {
     margin-left: 15rem;
     margin-right: 15rem;
     margin-top: 3rem;
+    margin-bottom: 5rem;
 }
 
 .catego {
@@ -275,7 +290,7 @@ header {
 
 .imageA .blue1 {
     position: absolute;
-    top: 89%;
+    top: 86%;
     left: 1%;
     height: 3rem;
     width: 8rem;
@@ -283,11 +298,12 @@ header {
     background-color: #323894;
     color: white;
     border-color: #323894;
+    border-style: none;
 }
 
 .imageB .blue1 {
     position: absolute;
-    top: 89%;
+    top: 86%;
     left: 2%;
     height: 3rem;
     width: 8rem;
@@ -295,11 +311,12 @@ header {
     background-color: #323894;
     color: white;
     border-color: #323894;
+    border-style: none;
 }
 
 .imageC .blue1 {
     position: absolute;
-    top: 89%;
+    top: 86%;
     left: 2%;
     height: 3rem;
     width: 8rem;
@@ -307,6 +324,7 @@ header {
     background-color: #323894;
     color: white;
     border-color: #323894;
+    border-style: none;
 }
 
 /*HOVER POUR LES BOUTONS*/
