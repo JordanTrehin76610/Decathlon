@@ -46,7 +46,6 @@ header {
 
 .connect {
     display: flex;
-    /* justify-content: space-around; */
 }
 
 .connect p {
@@ -117,8 +116,6 @@ header {
     height: 2.5rem;
     width: 100%;
     background-color: #FFCD4E;
-    /* justify-content: center;
-    align-items: center; */
     font-size: 0.9rem;
 }
 
@@ -245,9 +242,6 @@ header {
     border-style: none;
     color: white
 }
-
-
-
 
 /* ON PASSE AU CATEGORIE */
 
