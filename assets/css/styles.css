@@ -150,7 +150,6 @@ header {
 
 /* LE BON GROS CONTENUE */
 
-
 .accueil {
     max-width: 100%;
     display: grid;
@@ -191,6 +190,9 @@ header {
     background-color: white;
     border-color: white;
     border-style: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    text-wrap: nowrap;
 }
 
 .image1 .blue2 {
@@ -203,6 +205,9 @@ header {
     background-color: white;
     border-color: white;
     border-style: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    text-wrap: nowrap;
 }
 
 .image2 .blue1 {
@@ -215,6 +220,9 @@ header {
     background-color: white;
     border-color: white;
     border-style: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    text-wrap: nowrap;
 }
 
 .image3 .blanc1 {
@@ -227,7 +235,10 @@ header {
     background-color: #3643BA;
     border-color: #3643BA;
     border-style: none;
-    color: white
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    text-wrap: nowrap;
 }
 
 .image3 .blanc2 {
@@ -240,7 +251,10 @@ header {
     background-color: #3643BA;
     border-color: #3643BA;
     border-style: none;
-    color: white
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    text-wrap: nowrap;
 }
 
 /* ON PASSE AU CATEGORIE */
@@ -299,6 +313,9 @@ header {
     color: white;
     border-color: #323894;
     border-style: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    text-wrap: nowrap;
 }
 
 .imageB .blue1 {
@@ -312,6 +329,9 @@ header {
     color: white;
     border-color: #323894;
     border-style: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    text-wrap: nowrap;
 }
 
 .imageC .blue1 {
@@ -325,6 +345,9 @@ header {
     color: white;
     border-color: #323894;
     border-style: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    text-wrap: nowrap;
 }
 
 /*HOVER POUR LES BOUTONS*/
